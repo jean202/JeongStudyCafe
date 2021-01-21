@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.youtube_bg01 {
+	position: relative;
+	overflow: hidden;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+
+.youtube_header {
+	background: #222;
+	overflow: hidden;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+
+.img_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity:0.3;
+}
+
+.img_overlay img{
+	width:100%;
+	height:100%;
+}
+
+.youtube_header .black_content {
+  position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+	color: white;
+	padding: 5% 2%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+.youtube_bg01 .youtube_header {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: url(../../../images/banner_square01.jpg);
+	background-position: center 0%;
+}
+.youtube_bg01 > .youtube_header iframe {
+    overflow: hidden;
+    z-index: -99;
+    width: 0;
+    height: 0;
+/*    display: none; 이속성을 사용하시면 태그가 사라져서 동영상 음소거 제어를 할수 없어서 모바일에서 소리납니다. 주의요망 */
+}
+}
+
+
+

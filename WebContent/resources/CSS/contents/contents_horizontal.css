@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* 서브 페이지 가로[수직]형 레이아웃 */
+
+#sub_contents {
+	max-width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow-y: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 55px;
+}
+#bbs_contents {
+	max-width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow-y: hidden;
+	padding: 25px 15px 55px;
+}
+
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+#sub_wrap { }
+#aside,
+#section {
+}
+#aside { }
+#section { }
+
+
+}
+@media (max-width:480px){
+
+}
+@media (min-width:768px) {
+#sub_wrap { }
+#aside,
+#section {
+}
+#aside { }
+#section { padding-bottom: 60px; }
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px){
+
+}

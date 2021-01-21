@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- 필요한 bean들을 여기에 정의해서 사용-->
+		<bean class="com.cafe.jeongstudy.beans.UserBean" id='loginUserBean' scope='session'/> 
+	   					   
+</beans>

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+.sub_title {
+	margin-bottom: 20px;
+	font: 600 28px "나눔고딕", "Nanum Gothic", sans-serif;
+	letter-spacing: -1px;
+	padding: 15px;
+	border-bottom: 1px solid rgba(236,236,236,1.00);
+	color: rgba(73,73,73,1.00);
+}
+
+.sub_title2 {
+	font-size: 12px;
+	margin-left: 10px;
+	display: none;
+}
+
+#page_count {
+	text-align: right;
+	color: #FFFFFF;
+	font: 500 12px "나눔고딕", "Nanum Gothic", sans-serif;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1F1F1F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#page_count ul { margin: 0px; }
+
+#page_count ul li {
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#page_count ul li i { margin-right: 5px; }
+
+}
+@media (max-width:480px){
+
+}
+@media (min-width:768px) {
+
+.sub_title {
+	font: 600 32px "나눔고딕", "Nanum Gothic", sans-serif;
+	letter-spacing: -1px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid rgba(236,236,236,1.00);
+	color: rgba(73,73,73,1.00);
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sub_title2 {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.page_count_bg {
+	background-color: #000000;
+	padding: 15px;
+	margin-bottom: 55px;
+}
+
+#page_count {
+	text-align: right;
+	color: #B8B8B8;
+	font: 13px "나눔고딕", "Nanum Gothic", sans-serif;
+	padding-right: 15px;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_count ul { margin: 0px; }
+
+#page_count ul li {
+	padding-right: 5px;
+	display: inline-block;
+}
+
+#page_count ul li strong { font-size: 14px; }
+
+#page_count ul li i { margin-right: 5px; }
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px){
+
+}

@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+
+/* piece widget 조각위젯으로 세트가 아닌 자유삽입 가능 위젯입니다. */
+
+/* effect_image_piece01 ------------------------------------------------------------------------------------------ */
+.effect_image_piece01 {
+	position: relative;
+	overflow-y: hidden;
+}
+
+.effect_image_piece01 .bg_img img { }
+
+.effect_image_piece01:hover .bg_img img { }
+
+.effect_image_piece01 .bg_txt {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	width: 80%;
+	height: auto;
+	background-color: rgba(31,31,31,1);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	padding: 10%;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.effect_image_piece01:hover .bg_txt {
+	opacity: 1;
+	top: 50%;
+}
+
+.effect_image_piece01 .bg_txt .txt_title {
+	color: rgba(255,255,255,0.87);
+	font-size: 3.2vmin;
+	padding-bottom: 3%;
+}
+
+.effect_image_piece01 .bg_txt .txt_title:hover { color: rgba(204,160,63,1.00); }
+
+.effect_image_piece01 .bg_txt .txt_body {
+	color: rgba(255,255,255,1.00);
+	font-size: 1.8vmin;
+	opacity: 1;
+	visibility: visible;
+}
+
+.effect_image_piece01:hover .bg_txt .txt_body { }
+
+@media (max-width:991px) {
+
+.effect_image_piece01 .bg_txt {
+	opacity: 1;
+	visibility: visible;
+	background-color: rgba(31,31,31,0.8);
+}
+
+.effect_image_piece01 .bg_txt .txt_title { font-size: 3.2vmin; }
+
+.effect_image_piece01 .bg_txt .txt_body { font-size: 1.8vmin; }
+}
+
+/* effect_image_piece02 ------------------------------------------------------------------------------------------ */
+.effect_image_piece02 {
+	position: relative;
+	width: 100%;
+	overflow-y: hidden;
+	display: table;
+}
+
+.effect_image_piece02 .bg_img:after {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(31,31,31,1.00);
+	transition: 0.3s;
+}
+
+.effect_image_piece02:hover .bg_img:after { background-color: rgba(31,31,31,0.86); }
+
+.effect_image_piece02 .bg_img { position: relative; }
+
+.effect_image_piece02 .bg_txt {
+	position: absolute;
+	display: table-cell;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 90%;
+	height: auto;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	padding: 10%;
+	opacity: 1;
+	visibility: visible;
+	text-align: center;
+	font-family: "나눔고딕", "Nanum Gothic", sans-serif;
+	vertical-align: middle;
+}
+
+.effect_image_piece02:hover .bg_txt { }
+
+.effect_image_piece02 .bg_txt .txt_title {
+	color: rgba(255,255,255,0.87);
+	font-size: 3.2vmin;
+	padding-bottom: 3%;
+}
+
+.effect_image_piece02 .bg_txt .txt_title:hover { color: rgba(204,160,63,1.00); }
+
+.effect_image_piece02 .bg_txt .txt_body {
+	color: rgba(255,255,255,1.00);
+	font-size: 1.8vmin;
+	opacity: 1;
+	visibility: visible;
+	margin-bottom: 25px;
+}
+
+.effect_image_piece02:hover .bg_txt .txt_body { }
+
+@media (max-width:991px) {
+
+.effect_image_piece02 .bg_txt .txt_title { font-size: 3.2vmin; }
+
+.effect_image_piece02 .bg_txt .txt_body { font-size: 1.8vmin; }
+
+.effect_image_piece02 .bg_img:after { background-color: rgba(31,31,31,0.7); }
+}
+
+/* effect_image_piece03 ------------------------------------------------------------------------------------------ */
+.effect_image_piece03 {
+	position: relative;
+	display: block;
+	margin-top: 65px;
+	margin-bottom: 100px;
+}
+
+.effect_image_piece03 .bg_img img { }
+
+.effect_image_piece03:hover .bg_img img { }
+
+.effect_image_piece03 .bg_txt {
+	position: absolute;
+	display: block;
+	bottom: -10%;
+	left: 10%;
+	width: 80%;
+	height: auto;
+	background-color: rgba(31, 31, 31, 0.93);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	text-align: center;
+	padding: 4%;
+}
+
+.effect_image_piece03:hover .bg_txt { }
+
+.effect_image_piece03 .bg_txt .txt_title {
+	color: rgba(255,255,255,0.87);
+	font-size: 3.2vmin;
+	padding-bottom: 3%;
+}
+
+.effect_image_piece03 .bg_txt .txt_title:hover { color: rgba(204,160,63,1.00); }
+
+.effect_image_piece03 .bg_txt .txt_body {
+	color: rgba(255,255,255,1.00);
+	font-size: 1.8vmin;
+	opacity: 1;
+	visibility: visible;
+}
+
+.effect_image_piece03:hover .bg_txt .txt_body { }
+
+@media (max-width:991px) {
+
+.effect_image_piece03 .bg_txt {
+	opacity: 1;
+	visibility: visible;
+}
+}
+
+/* main_bbs_list_white01 ------------------------------------------------------------------------------------------ */
+
+.main_bbs_list_white01 { }
+
+.main_bbs_list_white01 .slick-slide img {
+	display: inline;
+	border: none;
+	width: auto;
+	margin: auto;
+	padding: 0;
+}
+
+.main_bbs_list_white01 .slick-vertical .slick-slide:focus {
+	outline:none !important;
+	border: none !important;
+}
+
+.main_bbs_list_white01 .label {
+	padding: 0 4px;
+	font-size: 9px;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 2px;
+	font-weight: 100;
+  }
+.main_bbs_list_white01 .bbs_big_title {
+	font-size: 22px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	display: inline-block;
+	letter-spacing: -1px;
+	color: #3A3A3A;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.main_bbs_list_white01 .bbs_big_title:after {
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	bottom: 2px;
+	left: 0px;
+	background-color: #131d1d;
+}
+
+.main_bbs_list_white01 .small_title { color: #A80632; }
+
+/* .banner_youtube01 ------------------------------------------------------------------------------------------ */
+.banner_youtube01 {
+	position: relative;
+	overflow: hidden;
+	border: 5px solid #E8E8E8;
+}
+
+.banner_youtube01:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.banner_youtube01 .btn_play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: rgba(255,255,255,1.00);
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	background-color: #1F1F1F;
+	line-height: 98px;
+	border-radius: 100px;
+	padding-left: 9px;
+	opacity: 0.8;
+}
+
+.banner_youtube01:hover .btn_play { color: rgba(236,20,23,1.00); }
+
+/* main_call_center_white01 ------------------------------------------------------------------------------------------ */
+
+.main_call_center_white01 { padding: 0 15px; }
+
+.main_call_center_white01 .tel_title {
+	font-size: 25px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+.main_call_center_white01 .tel_number, .main_call_center_white01 .tel_number a {
+	color: #A80632;
+	font-size: 4vmin;
+	padding: 10px 0;
+	font-weight: lighter;
+}
+
+.main_call_center_white01 .tel_number i { margin-right: 10px; }
+@media (max-width:767px){
+.main_call_center_white01 .tel_number, .main_call_center_white01 .tel_number a { font-size: 9vmin; }
+}

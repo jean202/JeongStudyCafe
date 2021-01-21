@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+
+/* 
+ * 파일 : board_common
+ * 종류 : Board environment file
+ * 블럭 :  ''
+ * 설명 : 게시판 일반적용 코드
+*/
+
+
+/* 브레이크 cafe24 */
+.checkbox,
+.radio { display: inline-block !important; }
+input[type=checkbox],
+input[type=radio] {
+	vertical-align: text-bottom;
+	line-height: normal;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/* 게시판공용 */
+.list_design .board_desc > input, .list_design .board_desc > select {
+	font-family: "Noto Sans KR", sans-serif !important;
+	font-size: 14px !important;
+	padding-left: 10px;
+}
+.seLayout { border: 1px solid #E7E7E7; } /* 게시판 쓰기 양쪽 실선*/
+
+.board_admin_bgcolor { padding-top: 25px; } /*게시판 아래 관리자관련 단추*/
+
+.sul_menu { margin-bottom: 10px; } /* 카테고리 */
+
+/* 앨범 공용 */
+
+.gallery_etc {
+	display: block;
+	margin-bottom: 25px;
+} /* 번호/작성일자 등등 표시*/
+
+/* 검색 공용 */
+
+#ext_search { margin-top: 25px; } /*게시판검색*/
+
+#search_display1 {
+	padding-left: 5px;
+	padding-right: 5px;
+	max-width: 135px;
+	width: 135px;
+}
+
+#search_display1 input { width: 100%; }
+
+/* 온라인문의 */
+
+.formmail_title_bgcolor,
+.formmail_cell_bgcolor, .formmail_cell_bgcolor select, .formmail_cell_bgcolor input{
+	font-size: 14px;
+	color: #6E6E6E;
+	font-family: "Noto Sans KR", sans-serif !important;
+	line-height: 25px !important;
+} /*온라인폼 폰트 글자크기 고정*/
+.formmail_cell_bgcolor select {
+	padding: 5px;
+}
+
+.formmail_textarea_style { width: 95%; } /*온라인문의 텍스트아리아*/
+
+/* 공지사항 및 메인 추출게시판  */
+
+.board_output tr td, .bbs_out tr td {
+	font-size: 12px;
+	font-family: "Noto Sans KR", sans-serif !important;
+	color: #C0C0C0 !important;
+}
+
+.bd_out1 { height: 25px; }
+
+.bd_out1 a, .board_output_gallery_subject a {
+	font-size: 14px !important;
+	color: #6E6E6E !important;
+	display: inline-block;
+	font-family: "Noto Sans KR", sans-serif !important;
+	line-height: 25px;
+}  
+
+.bd_out1 a:hover, .board_output_gallery_subject a:hover { color: #434343 !important; }
+
+/*개인정보보호*/
+.formmail_agreement p {
+	display: inline-block;
+	margin-right: 20px;
+} 
+
+/* 페이징 */
+.paging {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.paging > b {
+	background-color: rgba(199,22,45,1.00);
+	color: #FFFFFF;
+}
+
+.paging > b,
+.paging > a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-color: rgba(236,236,236,1.00);
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none !important;
+	margin-right: -15px;
+	font-weight: bold !important;
+	border-radius: 5px;
+}
+
+/*메인 공지 추출 깨짐방지*/
+
+.member_td_bgcolor { width: 150px; } /*칼라같지만 아니구 회원관리~ */
+
+INPUT#border.public_input.input_form { width: 80%; } /*제품소개 제목 쓰기 깨짐 방지*/
+
+.output_table { /* [disabled]width: 310px; 반응형 숨김*/
+}
+
+.secede input { vertical-align: -7px; }
+
+.board_output_gallery_subject { } /*메인 갤러리 추출 제목*/
+
+/*제품소개 그림 제목 조정*/
+.gallery_title {
+	display: block;
+	color: #6E6E6E;
+}
+
+.notice_subject { }
+
+.img_border {
+	border-color: rgba(239,239,239,1.00);
+	border-width: 5px !important;
+	border-style: solid;
+	display: block;
+	padding: 1px;
+}
+
+.secede_box .radio { display: inline !important; }
+
+/* 회원 공용 */
+.member_border {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/* 로그인  */
+.login_shop {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.form-signin {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-signin input { margin-bottom: 5px; }
+
+.form-signin-heading {
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.form-signin-subtext {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.etc_btn {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.etc_btn a { display: inline-block; }
+
+/* 평가하기 */
+.rating {}
+.board_rate tr:first-child td { padding:13px;}
+.board_rate tr:last-child td { padding:13px;}
+.board_txt tr td input {
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+/* 댓글 */
+.comment_txt input { width: 90px; }
+.comment_txt textarea#border { width:60%;}
+.commentw {}
+.commentl {}
+
+@media (max-width:991px) {
+}
+
+@media (max-width:767px) {
+/* 페이징 */
+.paging > b,
+.paging > a {
+	margin-right: -5px;
+	margin-bottom: 5px;
+}
+/* 댓글 */
+.commentl .comment_name,  .commentl .comment_txt { float: left; }
+}
+
+@media (max-width:480px) {
+}
+
+@media (min-width:768px) {
+}
+
+@media (min-width:768px) and (max-width:991px) {
+}
+
+@media (min-width:992px) {
+}

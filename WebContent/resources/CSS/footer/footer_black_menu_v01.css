@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+.bg_foot_menu { }
+
+#foot_menu {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#foot_menu ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#foot_menu ul li {
+	float: left;
+	width: 50%;
+}
+
+#foot_menu ul li:after { display : none; }
+
+#foot_menu ul li a {
+	color: #C0C0C0;
+	font: 11px/30px "나눔고딕", "Nanum Gothic", sans-serif;
+	display: block;
+	text-align: left;
+	padding: 0 15px;
+	border-right-color: #3a3a3a;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-bottom-color: #3a3a3a;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+#foot_menu ul li a:hover {
+	background-color: rgba(58,58,58,1.00);
+	color: #FFFFFF;
+}
+
+}
+@media (max-width:480px){
+
+}
+@media (min-width:768px) {
+.bg_foot_menu { }
+
+#foot_menu {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1300px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#foot_menu ul { margin-bottom: 0px; }
+
+#foot_menu ul li {
+	float: left;
+	position: relative;
+}
+
+#foot_menu ul li:after {
+	content: "";
+	position: absolute;
+	height: 8px;
+	right: 0px;
+	background-color: #6a6a6a;
+	top: 29px;
+	width: 1px;
+}
+
+#foot_menu ul li:last-child:after { display: none; }
+
+#foot_menu ul li a {
+	color: rgba(224,224,224,1.00);
+	line-height: 65px;
+	font-size: 12px;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#foot_menu a:hover { color: #E74D3C; }
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px){
+
+}

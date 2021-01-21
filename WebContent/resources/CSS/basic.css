@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* 폰트 설정*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');*/
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+/* 폰트*/
+.noto { font-family: 'Noto Sans KR', sans-serif; }
+
+.lato { font-family: 'Lato', sans-serif; }
+
+.barun { font-family: "나눔바른고딕", "Nanum Barun Gothic", sans-serif; }
+
+.nanum { font-family: "나눔고딕", "Nanum Gothic", sans-serif; }
+
+.webfont { }
+
+
+/* 공지사항 소셜버튼 */
+.a2a_kit { float: right; }
+.a2a_kit > a {
+	color: #6E6E6E;
+	margin: 15px 10px;
+	display: inline-block;
+	font-size: 18px;
+}
+/*공통 유틸 :after {content:""; display:block; clear:both; } */
+.clear { clear: both; }
+
+.disable { display: none }
+
+/*익스와 파폭용 onfocus=this.blur();  크롬은 자동 */
+a:link,
+a:visited,
+a:active,
+a:hover { text-decoration: none !important; }
+
+/* 드래그 블럭잡기 배경색 설정  */
+*::selection {
+	background-color: #DE4555;
+	color: #ffffff;
+}
+*::-moz-selection {
+ background: #f73a4c;
+ color: #ffffff;
+}
+
+/*익스 8이하 버전의 시멘텍 사용가능 배려*/
+article,
+aside,
+hgroup,
+header,
+footer,
+figure,
+figcaption,
+nav,
+section { clear: both; 
+}
+
+/*브레이크 CSS */
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	word-wrap: break-word;
+	word-break: keep-all;
+	overflow-y: scroll;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+	color: #6E6E6E;
+	text-decoration: none;
+}
+
+img,
+fieldset { border: 0; }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li { list-style: none; }
+
+input {
+	border-color: #F2F2F2;
+	border-width: 1px;
+	border-style: solid;
+}
+
+select, select[size="0"], select[size="1"] { border-color: rgba(232,232,232,1.00); }
+
+textarea {
+	border-color: #F2F2F2;
+	border-width: 0px;
+	border-style: solid;
+}
+.modal_fix_btn {
+	position: fixed;
+	left: 50%;
+	bottom: 0px;
+	transform: translateX(-50%);
+	display: none;
+}
+/* LG 992 DOWN */
+@media (max-width:992px) {
+}
+
+/* 모바일 767 Down*/
+@media (max-width:767px) {
+.wrapper_bg { }
+
+.wrapper { }
+.modal_fix_btn { display: none; }
+#sub_metapo { display: none; }
+}
+
+/* 스마트폰 480 Down */
+@media (max-width:480px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+.wrapper_bg { }
+
+.wrapper {  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4 { width: 33.32%; }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+}
+
+@media (min-width:768px) and (max-width:991px) {
+}

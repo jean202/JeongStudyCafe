@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body { padding: 50%; box-sizing: border-box;}
+.popup { position: fixed; left: 50%; top: 50%; z-index: 100; padding: 52px 60px 60px; width: 820px; height: 533px; 
+			transform: translate(-50%, -50%); box-sizing: border-box; background: #fff }
+.popup h2 { padding: 0 0 42px; border-bottom: 3px solid #444; font-weight: normal;
+				font-size: 36px; color: #222; text-align: center; line-height: 100%; }
+.popup .con { padding: 40px 78px; border-bottom: 3px solid #444; }
+.popup .con a { position: relative; padding: 10px 10px; top: 15px; font-size: 12px; text-align: center;}
+.btn_type2 { display: inline-block; width: 70px; height: 10px; background: #999; line-height: 5px; color: #fff; 
+			text-align: center; border-radius: 3px;}
+
+.agree { position: relative; margin: 28px 0 0; padding: 0 30px; height: 60px; border: 1px solid #e8e8e8; line-height: 60px;}	
+.agree label span { color: #de4f41; }
+.agree a.view { position: absolute; right: 30px; top: 15px; width: 93px; height: 30px; border: 1px solid #ddd; text-align: center;
+				line-height: 30px; border-radius: 3px;}
+
+.dim { position: fixed; left: 0; top: 0; z-index: 99; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);}
+ 				
+table.type1 { border-bottom: 1px solid #e8e8e8;} 
+table.type1 th,
+table.type1 td { padding: 0 0 20px; }
+table.type1 td { text-align: center; }
+table.type1 th { padding: 5px 20px;  font-size: 14px; color: #222; text-align: left; font-weight: normal; vertical-align: middle; right: 10px; }
+table.type1 span { color: #de4f41; }
+table.type1 th em { color: #999; }
+table.type1 textarea { height: 116px; }
+table.type1 tr:last-child th,
+table.type1 tr:last-child td { padding: 0 20px 30px; }
+
+.txt_center { text-align: center; padding: 30px 0 0; }
+.btn_type { display: inline-block; width: 170px; height: 50px; background: #de4f41; line-height: 50px; color: #fff; 
+			text-align: center; border-radius: 3px;}

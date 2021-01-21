@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+
+/* 본 디자인 제작에 들어가는 독립적인 위젯으로 미디어쿼리를 독립적으로 코딩합니다.  
+ * 섹션 제목 / 타이틀 / 서브메타포 대체 판넬 서브 제목
+ *
+*/
+
+/* text_title_black_bg01 ------------------------------------------------------------------------------------------ */
+
+.text_title_black_bg01 {
+	padding: 30px 25px;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.text_title_black_bg01:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.83);
+	z-index: -1;
+}
+
+.text_title_black_bg01.bg-img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.text_title_black_bg01.bg-img01 { background-image: url(../images/main_metapo01.jpg); }
+
+.text_title_black_bg01 .text_title {
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.text_title_black_bg01 .text_title .title01 { font-size: 3vmin; }
+
+.text_title_black_bg01 .text_title .title01 strong { }
+
+.text_title_black_bg01 .text_title .title02 {
+	font-size: 4vmin;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.text_title_black_bg01 .text_title .title02 strong { }
+
+.text_title_black_bg01 .text_title .title03 { font-size: 2vmin; }
+
+/* text_title_black_bg01 ------------------------------------------------------------------------------------------ */
+
+.text_title_white_bg01 {
+	padding: 30px 25px;
+	color: #1F1F1F;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.text_title_white_bg01:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.83);
+	z-index: -1;
+}
+
+.text_title_white_bg01.bg-img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.text_title_white_bg01.bg-img01 { background-image: url(../images/main_metapo02.jpg); }
+
+.text_title_white_bg01 .text_title {
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.text_title_white_bg01 .text_title .title01 { font-size: 3vmin; }
+
+.text_title_white_bg01 .text_title .title01 strong { }
+
+.text_title_white_bg01 .text_title .title02 {
+	font-size: 4vmin;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.text_title_white_bg01 .text_title .title02 strong { }
+
+.text_title_white_bg01 .text_title .title03 { font-size: 2vmin; }
+
+/* text_title_black_bg02 ------------------------------------------------------------------------------------------ */
+
+.text_title_black_bg02 {
+	padding: 30px 25px;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.text_title_black_bg02:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.83);
+	z-index: -1;
+}
+
+.text_title_black_bg02.bg-img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.text_title_black_bg02.bg-img01 { background-image: url(../images/main_metapo01.jpg); }
+
+.text_title_black_bg02 .text_title {
+	z-index: 1;
+}
+
+.text_title_black_bg02 .text_title .title01 {
+	font-size: 4vmin;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	position: relative;
+	display: inline-block;
+}
+
+.text_title_black_bg02 .text_title .title01:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #616161;
+	content: '';
+}
+
+.text_title_black_bg02 .text_title .title01:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #616161;
+	content: '';
+}
+
+.text_title_black_bg02 .title01 .underbar {
+	width: 50px;
+	height: 3px;
+	transform: translateX(-50%);
+	background-color: #C0C0C0;
+	position: absolute;
+	left: 50%;
+	bottom: -1px;
+	z-index: 1;
+	transition:0.3;
+}
+
+.text_title_black_bg02:hover .title01 .underbar { background-color: #f12b24; }
+
+.text_title_black_bg02 .text_title .title02 { font-size: 2vmin; }
+
+/* text_title_white_bg02 ------------------------------------------------------------------------------------------ */
+
+.text_title_white_bg02 {
+	padding: 30px 25px;
+	color: black;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+}
+
+.text_title_white_bg02:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(255,255,255,0.83);
+	z-index: -1;
+}
+
+.text_title_white_bg02.bg-img {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.text_title_white_bg02.bg-img01 { background-image: url(../images/main_metapo02.jpg); }
+
+.text_title_white_bg02 .text_title {
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.text_title_white_bg02 .text_title .title01 {
+	font-size: 4vmin;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	position: relative;
+	display: inline-block;
+}
+
+.text_title_white_bg02 .text_title .title01:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #616161;
+	content: '';
+}
+
+.text_title_white_bg02 .text_title .title01:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #616161;
+	content: '';
+}
+
+.text_title_white_bg02 .title01 .underbar {
+	width: 50px;
+	height: 3px;
+	transform: translateX(-50%);
+	background-color: #000000;
+	position: absolute;
+	left: 50%;
+	bottom: -1px;
+	z-index: 1;
+	transition: 0.3;
+}
+
+.text_title_white_bg02:hover .title01 .underbar { background-color: #f12b24; }
+
+.text_title_white_bg02 .text_title .title02 { font-size: 2vmin; }

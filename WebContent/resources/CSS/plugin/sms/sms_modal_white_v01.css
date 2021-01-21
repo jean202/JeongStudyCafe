@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+/* 
+ * 파일 : sms_modal_white_v01
+ * 종류 : sms
+ * 블럭 : #sms form .sms_content
+ * 설명 : 문자전송 sms 사용시 설치
+*/
+
+/*sms 빠른상담*/
+#sms form .sms_content dt {
+	font-size: 12px;
+	display: block;
+	line-height: 35px;
+	background-color: rgba(241,242,236,1.00);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#sms form .sms_content dd { }
+#sms {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#sms form .sms_content dd input { border-collapse: collapse; }
+#sms_send { display: none; }
+
+@media (max-width:991px){
+
+}
+@media (max-width:767px){
+
+}
+@media (max-width:480px){
+
+}
+@media (min-width:768px) {
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px){
+
+}

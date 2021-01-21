@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+/* 
+ * 파일 : slideBg_aniTxt_v01
+ * 종류 : 메인 배경슬라이드 
+ * 블럭 : #main_carousel
+ * 설명 : 메인메타포
+*/
+
+#main_carousel.carousel { }
+
+#main_carousel .carousel-inner { }
+
+#main_carousel .carousel-inner .item {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#main_carousel .carousel-inner .metapo_num01 { background-image: url(../../IMG/homepee/main_img.jpg);}
+
+
+
+/**/
+#main_carousel .carousel-caption {text-shadow: none;
+
+}
+
+/* Animation delays */
+#main_carousel .carousel-caption div:first-child {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+#main_carousel .carousel-caption div:nth-child(2) {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+#main_carousel .carousel-caption div:nth-child(3) {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+/* 메타포 높이 제어 */
+#main_carousel .carousel-inner .item { height: 95vh; }
+
+/* 텍스트 제어 */
+#main_carousel .mtext01 {
+	font-weight: 500;
+	font-size: 6vmin;
+	letter-spacing: -2px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding-right: 55px;
+	padding-left: 55px;
+	padding-bottom:35px;
+	position :relative;
+}
+#main_carousel .mtext01:after {
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:10px;
+	width:60%;
+	height:3px;
+	margin-left:50%;
+	transform:translateX(-50%);
+	background-color:#fff;
+	z-index:19;
+}
+
+#main_carousel .mtext02 {
+	font-size: 8vmin;
+	letter-spacing: -2px;
+	margin-bottom: 15px;
+	background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.20) 24.35%,rgba(255,255,255,0.20) 79.27%,rgba(255,255,255,0.00) 100%);
+	background-image: linear-gradient(90deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.20) 24.35%,rgba(255,255,255,0.20) 79.27%,rgba(255,255,255,0.00) 100%);
+	text-transform: uppercase;
+	padding: 25px 0;
+	font-weight: 100;
+}
+
+#main_carousel .mtext03 {
+	font-size: 3vmin;
+	letter-spacing: -1px;
+	margin-bottom: 120px;
+}
+
+@media (max-width:767px) {
+
+#main_carousel .carousel-inner .item { height: 70vh; }
+
+#main_carousel .mtext01 {
+	font-size: 6.5vmin;
+	letter-spacing: -1px;
+}
+
+#main_carousel .mtext02 {
+	font-size: 7vmin;
+	letter-spacing: -1px;
+}
+
+#main_carousel .mtext03 {
+	font-size: 3.6vmin;
+	letter-spacing: -1px;
+	margin-bottom: 50px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+#main_carousel .carousel-inner .item { height: 80vh; }
+
+#main_carousel .mtext01 {
+	font-size: 5vmin;
+	letter-spacing: -2px;
+}
+
+#main_carousel .mtext02 {
+	font-size: 6vmin;
+	letter-spacing: -1px;
+}
+
+#main_carousel .mtext03 {
+	font-size: 2.6vmin;
+	letter-spacing: -1px;
+	margin-bottom: 50px;
+}
+}

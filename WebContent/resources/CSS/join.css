@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.contents { width: 1180px; margin: 0 auto;}
+.h3 { margin: 50px 0 20px; font-size: 18px; color: #222; font-weight: normal; }
+.h3:before { content: ""; display: inline-block; margin: 0 8px 0 0; width: 4px; height: 4px; background: #00a5e1; vertical-align: 5px;}
+
+input[type="checkbox"] { position: absolute; left: -3000% }
+input[type="checkbox"] + label { font-size: 14px; color: #666; }
+input[type="checkbox"] + label:before { content: ""; display: inline-block; width: 20px; height: 20px; border: 1px solid #666; margin: 0 10px 0 0; 
+										background: #f4f4f4; vertical-align: middle; box-sizing: border-box; transition: all 0.3s; }
+input[type="checkbox"]:checked + label:before { border: 7px solid #666; }
+
+div + .btn_center { padding: 30px 0 0;}
+
+.btn_center { text-align: center; }
+label + .btn_center { padding: 65px 0 0; }
+.btn_type1 { 
+	display: inline-block; width: 120px; height: 45px; background: #042e6f; text-align: center; line-height: 45px;
+	color: #fff; font-size: 13px; 
+}
+.btn_type2 {
+	display: inline-block; position: relative; top: 1px; width: 120px; height: 45px; background: #fff; text-align: center;
+	line-height: 45px; color: #042e6f; font-size: 13px; border: 1px solid #042e6f; box-sizing: border-box;
+}
+.btn_type3 {
+	display: inline-block; padding: 0 10px; min-width: 102px; height: 32px; line-height: 27px; border: 2px solid #042e6f; 
+	box-sizing: border-box; vertical-align: middle; color: #042e6f; font-size: 13px;
+}
+.agree { text-align: center; border-bottom: 1px solid #999; padding: 30px 0;}
+.agree span { color: #f00}
+.agree a { display: inline-block; position: relative; top: 1px; width: 90px; height: 30px; background: #fff; text-align: center;
+	line-height: 28px; color: #042e6f; font-size: 13px; border: 1px solid #042e6f; box-sizing: border-box; }
+			 
+label + a { margin: 0 100px 0;}
+			 
+table + div { padding: 10px 0 0;}
+			 
+table.type1 {border-top: 2px solid #042e6f; border-bottom: 1px solid #999; }
+table.type1 th,
+table.type1 td {
+	border-top: 1px solid #ccc; border-left: 1px solid #ccc;  font-size: 13px;
+}
+table.type1 tr:first-child th,
+table.type1 tr:first-child td { border-top: none; }
+table.type1 th { padding: 10px 10px 10px 45px; text-align: left; font-weight: normal; color: #222;}
+table.type1 th span{ color: #de4f41; vertical-align: -2px; margin: 0 6px 0 -6px;}
+table.type1 td { padding: 10px 55px; color: #777; }
+table.type1 td input[type="text"],
+table.type1 td input[type="password"],
+table.type1 td input[type="tel"],
+table.type1 td input[type="number"] { border: 1px solid #ccc; height: 32px; padding: 0 20px; line-height: 32px; box-sizing: border-box;}
+
+table.type1 .info { padding: 0 10px; } 
+table.type1 td > div { padding: 10px 0 0; }
+table.type1 td > div:first-child { padding: 0 }
+table.type1 td .btn_type3 { margin-left: 5px;}
+
+
